@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="MasterSecondaire.master.cs" Inherits="TP_Session___CHIM.MasterSecondaire" %>
+
+
+<asp:Content ID="Content5" ContentPlaceHolderID="cp1" runat="server">
+
+    <asp:ContentPlaceHolder ID="Content6" runat="server">
+
+
+        <div class="nav">
+
+            <asp:Image 
+                ID="img_nav"
+                runat="server"
+                CssClass="img_nav"
+                src="<%$ Resources:Site, img_nav %>"/>
+
+        </div>
+
+
+
+    </asp:ContentPlaceHolder>
+
+
+    <asp:ContentPlaceHolder ID="Content7" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>

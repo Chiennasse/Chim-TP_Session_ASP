@@ -1,0 +1,169 @@
+﻿.menu 
+{
+    background-color: slateblue;
+    height: 180px;
+    float:left;
+    width:100%;
+}
+
+.hlogo 
+{
+    float: left;
+}
+
+.footer 
+{
+    background-color: slateblue;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    float: left;
+}
+
+.lb 
+{
+    color: white;
+    float: left;
+}
+
+.flogoCeg 
+{
+    float: right;
+    position: static;
+}
+
+.imgAcceuil
+{
+    width:600px;
+    height:300px;
+}
+
+.tableauPhoto 
+{
+    text-align: center;
+    font-weight:bold;
+}
+
+.boutonsHeader 
+{
+    margin-right:1%;
+    height: 92px;
+    width: 233px;
+    display: block;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    float: right;
+}
+
+.titreH
+{
+    padding-top:2%;
+    text-align:center;
+    font-size:xx-large;
+}
+
+.txt 
+{
+    padding-top:2%;
+    padding-bottom:5%;
+    padding-left:20%;
+    padding-right:20%;
+    text-align: justify
+}
+
+.zoneLogin 
+{
+
+    position:absolute;
+    margin-bottom:40%;
+    margin-left:40%;
+    margin-right:40%;
+    margin-top:20%;
+    border: 3px solid black;
+    padding:2%;
+    border-color: black;
+    text-align: center;
+
+}
+
+.label 
+{
+    color: darkred;
+    font-weight: bold;
+    float:left;
+}
+
+.tb 
+{
+    float:right;
+}
+
+.bouton 
+{
+    text-align:center;
+}
+
+.nav 
+{
+    margin-top: 6%;
+    border: solid 5px #3399ff;
+    float: left;
+}
+
+.img_nav
+{
+    width:225px;
+    height:170px;
+}
+
+.calendrier
+{
+    margin-top:10%;
+    margin-left:43%;
+    margin-right:43%;
+
+    text-align:center;
+}
+
+.lbCalInstru
+{
+    margin-left:40%;
+    margin-top: 8%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lbDate 
+{
+    margin-left:40%;
+    text-align: center;
+}
+
+.dgv
+{
+    margin-left:30%;
+    font-size:20px;
+    font-family:Calibri;
+    text-align:center;
+}
+
+.dgv td, .dgv th
+{
+    padding:15px;
+}
+
+.gvAltRow
+{
+    background-color:lightblue;
+}
+
+.gvHeader
+{
+    background-color:yellow;
+    font-weight:bold;
+}
+
+.ajout
+{
+    text-align:center;
+}

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bt_brosse" xml:space="preserve">
+    <value>images/boutons/brosse.png</value>
+  </data>
+  <data name="bt_histoire" xml:space="preserve">
+    <value>images/boutons/histoire.png</value>
+  </data>
+  <data name="bt_marque" xml:space="preserve">
+    <value>images/boutons/marque.png</value>
+  </data>
+  <data name="bt_quand" xml:space="preserve">
+    <value>images/boutons/quand.png</value>
+  </data>
+  <data name="connexion" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="Depart" xml:space="preserve">
+    <value>Département d'informatique</value>
+  </data>
+  <data name="imgLink1" xml:space="preserve">
+    <value>images/50 francais.jpg</value>
+  </data>
+  <data name="lb_titre_acceuil" xml:space="preserve">
+    <value>Quand on aime la bière...</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>Adresse courriel : </value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nom : </value>
+  </data>
+  <data name="Title_Home" xml:space="preserve">
+    <value>La bière - Acceuil</value>
+  </data>
+  <data name="H_histoire" xml:space="preserve">
+    <value>L'histoire de la bière !</value>
+  </data>
+  <data name="img_nav" xml:space="preserve">
+    <value>images/histoire bière.jpg</value>
+  </data>
+  <data name="title_histoire" xml:space="preserve">
+    <value>Histoire</value>
+  </data>
+  <data name="title_marque" xml:space="preserve">
+    <value>Marques</value>
+  </data>
+  <data name="txt1" xml:space="preserve">
+    <value>La bière est une boisson alcoolisée obtenue par fermentation d'un moût préparé à partir de matières premières amylacées (orge, maïs, riz, banane, manioc) et d'eau potable. Le moût est un jus sucré obtenu à l'issue d'une étape importante de la fabrication de la bière, le brassage, terme à l'origine des vocables brasseur et brasserie.</value>
+  </data>
+  <data name="txt2" xml:space="preserve">
+    <value>Plus spécifiquement de nos jours, elle est généralement produite à partir d’eau, de malt (céréale germée, principalement de l'orge, parfois additionné d'autres céréales) et depuis le Moyen Âge, de houblon qui apporte le parfum et l'amertume nécessaires à chaque bière, et agit comme conservateur naturel.</value>
+  </data>
+  <data name="txt3" xml:space="preserve">
+    <value>Elle est consommée à la pression, en bouteille et en canette. Symbole associé à la fête, à la convivialité en famille ou entre amis, elle est à l'origine de nombreux évènements festifs (fête de la bière, mondial de la bière, journée internationale de la bière) mais suscite également de nombreux excès (jeux à boire tels que le bière-pong, le Flip cup (en), le bong à bière (en), la botte de bière (de) ou le barathon).</value>
+  </data>
+  <data name="txt4" xml:space="preserve">
+    <value>Des versions très faiblement alcoolisées (variant de 2° à 0°) sont présentes sur le marché. Contrairement aux autres boissons « sans alcool », elles sont élaborées par les mêmes procédés que la bière classique. La fabrication de la bière est réalisée industriellement ou artisanalement dans une brasserie mais est réalisable par le particulier.</value>
+  </data>
+  <data name="txt5" xml:space="preserve">
+    <value>La bière est la plus ancienne boisson alcoolisée connue au monde et la boisson la plus consommée après l'eau et le thé.</value>
+  </data>
+  <data name="txt6" xml:space="preserve">
+    <value>L'histoire de la bière est intimement liée à celle de ses ingrédients, ainsi qu'aux avancées technologiques qui firent de cette boisson le breuvage que l'on connaît aujourd’hui. Les premières cultures de céréales, notamment de l'orge et de l'épeautre (une variété de blé), ont été attestées en 8000 av. J.-C. en Mésopotamie. Tous les ingrédients étant disponibles dès cette époque, la bière pouvait donc exister et l'on estime son invention/découverte à 6000 av. J.-C. Cependant, les preuves formelles de son existence, découvertes dans la province de Sumer, remontent au IVe millénaire av. J.-C. À cette époque, la bière, alors appelée « sikaru» (dont la traduction littérale est pain liquide) était à la base de l'alimentation quotidienne. On la fabriquait par cuisson de galettes à base d'épeautre et d'orge que l'on mettait à tremper dans de l'eau, afin de déclencher la fermentation nécessaire à la production d'alcool, et que l'on assaisonnait avec de la cannelle, du miel ou toutes autres épices en fonction des préférences des clients. La bière, connue des peuples de Chaldée (maintenant Irak, Koweït) et d'Assyrie (Irak, Syrie, Liban, Palestine), devenue monnaie d'échange, commença sa dissémination. Des recherches archéologiques ont pu démontrer que les Provençaux brassaient déjà leur bière au ve siècle av. J.-C.</value>
+  </data>
+  <data name="title_ivresse" xml:space="preserve">
+    <value>Matériel d'ivresse</value>
+  </data>
+  <data name="title_quand" xml:space="preserve">
+    <value>Quand</value>
+  </data>
+  <data name="bt_date" xml:space="preserve">
+    <value>Confirmer</value>
+  </data>
+  <data name="lb_intruc" xml:space="preserve">
+    <value>Choissisez une date pour votre prochaine brosse : </value>
+  </data>
+  <data name="lb_date_choisie" xml:space="preserve">
+    <value>Voici la date de votre prochaine brosse : </value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Ajouter une bière</value>
+  </data>
+  <data name="bt_add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="lb_brasseur" xml:space="preserve">
+    <value>Brasseur : </value>
+  </data>
+  <data name="lb_nomb" xml:space="preserve">
+    <value>Marque : </value>
+  </data>
+  <data name="lb_pour" xml:space="preserve">
+    <value>Pourcentage : </value>
+  </data>
+</root>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bt_brosse" xml:space="preserve">
+    <value>images/boutons/drunk.png</value>
+  </data>
+  <data name="bt_histoire" xml:space="preserve">
+    <value>images/boutons/story.png</value>
+  </data>
+  <data name="bt_marque" xml:space="preserve">
+    <value>images/boutons/brands.png</value>
+  </data>
+  <data name="bt_quand" xml:space="preserve">
+    <value>images/boutons/when.png</value>
+  </data>
+  <data name="connexion" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Depart" xml:space="preserve">
+    <value>Computer Science Departement</value>
+  </data>
+  <data name="imgLink1" xml:space="preserve">
+    <value>images/50 english.jpg</value>
+  </data>
+  <data name="lb_titre_acceuil" xml:space="preserve">
+    <value>When you love beer....</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>E-mail : </value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Name : </value>
+  </data>
+  <data name="Title_Home" xml:space="preserve">
+    <value>Beer - Home</value>
+  </data>
+  <data name="H_histoire" xml:space="preserve">
+    <value>History Of Beer</value>
+  </data>
+  <data name="img_nav" xml:space="preserve">
+    <value>images/homer.png</value>
+  </data>
+  <data name="title_histoire" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="title_marque" xml:space="preserve">
+    <value>Brands</value>
+  </data>
+  <data name="txt1" xml:space="preserve">
+    <value>Beer is one of the oldest beverages humans have produced, dating back to at least the 5th millennium BC in Iran, and was recorded in the written history of ancient Egypt and Mesopotamia and spread throughout the world.</value>
+  </data>
+  <data name="txt2" xml:space="preserve">
+    <value>As almost any cereal containing certain sugars can undergo spontaneous fermentation due to wild yeasts in the air, it is possible that beer-like beverages were independently developed throughout the world soon after a tribe or culture had domesticated cereal. Chemical tests of ancient pottery jars reveal that beer was produced as far back as about 7,000 years ago in what is today Iran. This discovery reveals one of the earliest known uses of fermentation and is the earliest evidence of brewing to date. In Mesopotamia, the oldest evidence of beer is believed to be a 6,000-year-old Sumerian tablet depicting people drinking a beverage through reed straws from a communal bowl. A 3900-year-old Sumerian poem honouring Ninkasi, the patron goddess of brewing, contains the oldest surviving beer recipe, describing the production of beer from barley via bread. In China, residue on pottery dating from between 5400 and 4900 years ago shows beer was brewed using barley and other grains.</value>
+  </data>
+  <data name="txt3" xml:space="preserve">
+    <value>The invention of bread and beer has been argued to be responsible for humanity's ability to develop technology and build civilization. The earliest chemically confirmed barley beer to date was discovered at Godin Tepe in the central Zagros Mountains of Iran, where fragments of a jug, from between 5400 and 5000 years ago was found to be coated with beerstone, a by-product of the brewing process.</value>
+  </data>
+  <data name="txt4" xml:space="preserve">
+    <value>Beer may have been known in Neolithic Europe as far back as 5,000 years ago, and was mainly brewed on a domestic scale.</value>
+  </data>
+  <data name="txt5" xml:space="preserve">
+    <value>Beer produced before the Industrial Revolution continued to be made and sold on a domestic scale, although by the 7th century AD beer was also being produced and sold by European monasteries. During the Industrial Revolution, the production of beer moved from artisanal manufacture to industrial manufacture, and domestic manufacture ceased to be significant by the end of the 19th century. The development of hydrometers and thermometers changed brewing by allowing the brewer more control of the process, and greater knowledge of the results.</value>
+  </data>
+  <data name="txt6" xml:space="preserve">
+    <value>Today, the brewing industry is a global business, consisting of several dominant multinational companies and many thousands of smaller producers ranging from brewpubs to regional breweries. More than 133 billion liters (35 billion gallons) are sold per year—producing total global revenues of $294.5 billion (£147.7 billion) in 2006.</value>
+  </data>
+  <data name="title_ivresse" xml:space="preserve">
+    <value>Drunk Stuff</value>
+  </data>
+  <data name="title_quand" xml:space="preserve">
+    <value>When</value>
+  </data>
+  <data name="bt_date" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="lb_intruc" xml:space="preserve">
+    <value>Choose a date for your beer delivery</value>
+  </data>
+  <data name="lb_date_choisie" xml:space="preserve">
+    <value>Here's the next time you'll get fu**** drunk : </value>
+  </data>
+  <data name="add" xml:space="preserve">
+    <value>Add a beer</value>
+  </data>
+  <data name="bt_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lb_brasseur" xml:space="preserve">
+    <value>Brewer : </value>
+  </data>
+  <data name="lb_nomb" xml:space="preserve">
+    <value>Brand :</value>
+  </data>
+  <data name="lb_pour" xml:space="preserve">
+    <value>Percentage : </value>
+  </data>
+</root>

@@ -1,0 +1,110 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="TP_Session___CHIM.Master"%>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" runat="server" media="screen" href="~/css/master.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+    
+
+<body>
+    <form id="pageMaster" runat="server">
+
+        <header>
+            <div class="menu">
+                <%--Logo qui redirige vers l'acceuil--%>
+                <asp:ImageButton CssClass="=hlogo"
+                    ID="logo"
+                    runat="server"
+                    src="images/logos/logo.png"
+                    OnClick="logo_Click" />
+
+
+                <%--Images des boutons--%>
+                <asp:ImageButton
+                    ID="bt_brosse"
+                    runat="server"
+                    src="<%$ Resources:Site, bt_brosse %>"
+                    CssClass="boutonsHeader"
+                    OnClick="bt_brosse_Click" />
+
+                <asp:ImageButton
+                    ID="bt_quand"
+                    runat="server"
+                    src="<%$ Resources:Site, bt_quand %>"
+                    CssClass="boutonsHeader"
+                    OnClick="bt_quand_Click" />
+
+                <asp:ImageButton
+                    ID="bt_marque"
+                    runat="server"
+                    src="<%$ Resources:Site, bt_marque %>"
+                    CssClass="boutonsHeader"
+                    OnClick="bt_marque_Click" />
+
+
+                <asp:ImageButton
+                    ID="bt_histoire"
+                    runat="server"
+                    src="<%$ Resources:Site, bt_histoire %>"
+                    CssClass="boutonsHeader"
+                    OnClick="bt_histoire_Click" />
+                </div>
+        </header>
+
+        <br />
+
+    <asp:ContentPlaceHolder 
+        ID="cp1" 
+        runat="server">
+        <div>
+
+        </div>
+    </asp:ContentPlaceHolder>
+
+    <footer class="footer">
+
+        <asp:ImageButton
+            ID="logoCeg"
+            src="images/logos/logo cegep.png"
+            runat="server"
+            OnClick="logoCeg_Click"
+            CssClass="flogoCeg" />
+
+        <br />
+
+        <asp:Label
+             ID = "lbNom"
+             runat = "server"
+             Cssclass="lb"
+             Text = "Maxyme Chiasson"/>
+        
+
+        <br/>
+
+        <asp:Label
+             ID = "lbCégep"
+             runat = "server"
+             CssClass="lb"
+             Text = "Cégep de Sept-Îles"/>
+
+        <br/>
+
+
+        <asp:LinkButton
+             ID = "lbDepartement"
+             runat = "server"
+             CssClass="lb"
+             OnClick="lbDepartement_Click"
+             Text = "<%$ Resources:Site, Depart %>"/>
+
+    </footer>
+    </form>
+</body>
+</html>
